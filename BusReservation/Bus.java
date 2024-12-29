@@ -1,4 +1,4 @@
-package JavaPratice.BusReservation;
+package BusReservation;
 
 public class Bus {
     private int BusNo;

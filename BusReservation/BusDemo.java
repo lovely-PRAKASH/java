@@ -1,4 +1,4 @@
-package JavaPratice.BusReservation;
+package BusReservation;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class BusDemo {

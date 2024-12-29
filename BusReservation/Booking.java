@@ -1,4 +1,4 @@
-package JavaPratice.BusReservation;
+package BusReservation;
 
 import java.util.*;
 import java.util.Scanner;
