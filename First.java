@@ -29,6 +29,5 @@ class Student{
         System.out.println(name);
         System.out.println(rollNo);
         System.out.println(totalMarks());
-
     }
 }
