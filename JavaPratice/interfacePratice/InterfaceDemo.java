@@ -22,7 +22,7 @@ class Car implements Ridable{
     }
 }
 
-class Bike extends Car implements Ridable, Rolles{
+class Bike extends Car implements Rolles{
     public void ride(){
         System.out.println("Your are Riding a Bike");
     }
