@@ -5,6 +5,11 @@ interface Ridable {
         System.out.println("you are riding");
     }
 }
+interface Rolles{
+    default public void carType(){
+        System.out.println("Rolles Royes car");
+    }
+}
 class Car implements Ridable{
     public void ride(){
         System.out.println("Your are Riding a Car");
@@ -16,11 +21,7 @@ class Car implements Ridable{
         System.out.println("calling car using bike");
     }
 }
-interface Rolles{
-    default public void carType(){
-        System.out.println("Rolles Royes car");
-    }
-}
+
 class Bike extends Car implements Ridable, Rolles{
     public void ride(){
         System.out.println("Your are Riding a Bike");
