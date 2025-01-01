@@ -29,6 +29,7 @@ public class InterfaceDemo{
 
         c.ride();
         b.ride();
-
+        c.display();
+        b.display();
     }
 }
