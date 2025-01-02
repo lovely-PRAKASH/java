@@ -41,6 +41,7 @@ public class InterfaceDemo{
                 System.out.println("i am riding vintage car");
             }
         };
+        Ridable r2=()->System.out.println("your are riding convertable car"); //lambda expression
 
         c.ride();
         b.ride();
@@ -49,5 +50,6 @@ public class InterfaceDemo{
         b1.checkCar();
         b1.carType();
         r1.ride();
+        r2.ride();
     }
 }
