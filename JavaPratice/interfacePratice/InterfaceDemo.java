@@ -36,6 +36,11 @@ public class InterfaceDemo{
         Ridable c=new Car();
         Ridable b= new Bike();
         Bike b1=new Bike();
+        Ridable r1= new Ridable() {    
+            public void ride(){
+                System.out.println("i am riding vintage car");
+            }
+        };
 
         c.ride();
         b.ride();
@@ -43,5 +48,6 @@ public class InterfaceDemo{
         b.display();
         b1.checkCar();
         b1.carType();
+        r1.ride();
     }
 }
