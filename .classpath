@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="JavaPratice/interfacePratice/|JavaPratice/factorial.java/" kind="src" path=""/>
+	<classpathentry kind="src" path="JavaPratice/factorial.java"/>
+	<classpathentry kind="src" path="JavaPratice/interfacePratice"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
